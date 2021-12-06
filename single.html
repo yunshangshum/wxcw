@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>宠物故事</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="" />
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- Custom Theme files -->
+	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<link href="css_1/iconfont.css" rel="stylesheet">
+	<!-- font-awesome icons -->
+	<!-- //Custom Theme files -->
+	<!-- js -->
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<!-- //js -->
+	<!-- web-fonts -->
+	<link href="http://fonts.googleapis.com/css?family=Limelight" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic'
+	    rel='stylesheet' type='text/css'>
+	<!-- //web-fonts -->
+</head>
+
+<body>
+	<!-- banner -->
+	<div class="agileits-banner about-w3banner">
+		<div class="bnr-agileinfo">
+			<div class="banner-top w3layouts">
+				<div class="container">
+					<ul class="agile_top_section">
+						<li>
+							<p></p>
+						</li>
+						<li>
+							<p></p>
+						</li>
+						<li><a class="sign" href="#" data-toggle="modal" data-target="#myModal2"><i class="fa fa-sign-in" aria-hidden="true"></i> 登录</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="banner-w3text w3layouts">
+				<h2>温馨宠屋</h2>
+			</div>
+			<!-- navigation -->
+			<div class="top-nav w3-agiletop">
+				<div class="agile_inner_nav_w3ls">
+					<div class="navbar-header w3llogo">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<h1><a href="index.html">宠物小故事</a></h1>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<div class="w3menu navbar-left">
+							<ul class="nav navbar">
+								<li><a href="index.html" class="active">首页</a></li>
+								<li><a href="about.html">宠物服务</a></li>
+								<li><a href="gallery.html">宠物领养</a></li>
+							
+								<li><a href="contact.html">联系我们</a></li>
+							</ul>
+						</div>
+						<div class="w3ls-bnr-icons social-icon navbar-right">
+							<a href="#" class="social-button dribbble"><i class="fa-dribbble iconfont" style="margin-left: -15px;">&#xe62c;</i></a>
+							<a href="#" class="social-button dribbble"><i class="fa-dribbble iconfont" style="margin-left: -15px;">&#xe61a;</i></a>
+							<a href="#" class="social-button dribbble"><i class="fa-dribbble iconfont" style="margin-left: -15px;">&#xe8bb;</i></a>
+							<a href="#" class="social-button dribbble"><i class="fa-dribbble iconfont" style="margin-left: -15px;">&#xe908;</i></a>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!-- //navigation -->
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- Modal1 -->
+	<div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
+		<div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+
+					<div class="signin-form profile">
+						<h3 class="agileinfo_sign">登录</h3>
+						<div class="login-form">
+							<form action="#" method="post">
+								<input type="email" name="email" placeholder="铲屎官账号" required="">
+								<input type="password" name="password" placeholder="请输入密码" required="">
+								<div class="tp">
+									<input type="submit" value="登录">
+								</div>
+							</form>
+						</div>
+						<div class="login-social-grids">
+							<ul>
+								<a href="#" class="social-button dribbble"><i class="fa-dribbble iconfont" style="font-size: 25px;margin:10px;">&#xe62c;</i></a>
+								<a href="#" class="social-button dribbble"><i class="fa-dribbble iconfont" style="font-size: 25px;margin:10px;">&#xe61a;</i></a>
+								<a href="#" class="social-button dribbble"><i class="fa-dribbble iconfont" style="font-size: 25px;margin:10px;">&#xe8bb;</i></a>
+							</ul>
+						</div>
+						<p><a href="#" data-toggle="modal" data-target="#myModal3"> 注册</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //Modal1 -->
+	<!-- Modal2 -->
+	<div class="modal fade" id="myModal3" tabindex="-1" role="dialog">
+		<div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+
+					<div class="signin-form profile">
+						<h3 class="agileinfo_sign">注册</h3>
+						<div class="login-form">
+							<form action="#" method="post">
+								<input type="text" name="name" placeholder="用户名" required="">
+								<input type="email" name="email" placeholder="邮箱" required="">
+								<input type="password" class="password" name="Password" id="password1" placeholder="输入密码" required="" />
+								<input type="password" class="password" name="Confirm Password" id="password2" placeholder="确认密码" required=""
+								/>
+								<input type="submit" value="注册">
+							</form>
+						</div>
+						<p><a href="#">点击注册，即表示我同意您的条款</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //Modal2 -->
+
+	<!-- single -->
+	<div class="single welcome">
+		<div class="container">
+			<h3 class="agileits-title">贴吧</h3>
+			<div class="markets-grids">
+				<div class="col-md-7 w3ls_single_left">
+					<div class="w3ls_single_left_grid">
+						<div class="w3ls_single_left_grid_right">
+							<h3>一只小猫的自述</h3>
+							<h5>May 20,2021</h5>
+							<ul>
+								<li><span class="fa fa-user" aria-hidden="true"></span><a href="#">喵星人</a></li>
+								<li><span class="fa fa-envelope-o" aria-hidden="true"></span><a href="#">2 条评论</a></li>
+								<li><span class="fa fa-heart-o" aria-hidden="true"></span><a href="#">50 个赞</a></li>
+								<li><span class="fa fa-tag" aria-hidden="true"></span><a href="#">3 个标签</a></li>
+							</ul>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="w3ls_single_left_grid1">
+						<img src="images/g3.jpg" alt=" " class="img-responsive" />
+						<p>从喵星不远千里来到地球，在这人间走了一遭，现在全身无力躺在公园的大树底下，气若游丝，瑟瑟发抖的身体蜷缩成一团，安静地等待着死神的到来。
+							我没有名字，没有家人，更没有朋友。只有一对明黄色的眼睛，瓜子脸，还有那不讨喜的毛色。
+							我没有属于自己的名字，人类都叫我“流浪猫”，但我并不喜欢这个名字。
+							<span>
+							我每天躲在了汽车底盘下睡觉，饿了就跑到小区楼道的垃圾箱里找吃的，天气好时就躺在天台上晒晒太阳舔舔毛，下雨时躲在车库里避雨。
+							我常常饥不择食，只要是能下嘴的东西，就会硬塞进胃里，因为吃了这顿，下一顿不知道什么时候才能吃上了。
+							</span>
+							<span>
+							无聊的时候，我时常曲起前腿卧在冰冷的水泥地上，眯着眼睛看对面楼上的暖黄色灯光，和那一家子团聚的背影，那里肯定很温暖吧。我什么时候才能有个“家”？
+							</span>
+							<span>
+							现在我被好心的大哥哥大姐姐们暂时收养了，他们正在为我找主人，如果你看到了我的自述，希望可以来收养我啊！
+							</span>
+						</p>
+						<div class="w3ls_single_left_grid1_left">
+							<h4>分享:</h4>
+						</div>
+						<div class="w3ls_single_left_grid1_right">
+							<div class="social-icon">
+								<a href="#" class="social-button dribbble"><i class="fa-dribbble iconfont" style="margin-left: -15px;">&#xe62c;</i></a>
+								<a href="#" class="social-button dribbble"><i class="fa-dribbble iconfont" style="margin-left: -15px;">&#xe61a;</i></a>
+								<a href="#" class="social-button dribbble"><i class="fa-dribbble iconfont" style="margin-left: -15px;">&#xe8bb;</i></a>
+								<a href="#" class="social-button dribbble"><i class="fa-dribbble iconfont" style="margin-left: -15px;">&#xe908;</i></a>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="w3l_admin">
+						<p><i class="fa fa-quote-left"></i>在你把我带回家之前，请记得我的寿命只有10~15年；你的遗弃，会是我最大的痛苦。</p>
+						<a href="#"><i>公益用语</i></a>
+					</div>
+				</div>
+				<div class="col-md-5 w3ls_single_right">
+					<div class="wthree_recent">
+						<h4>最近的帖子</h4>
+						<ul>
+							<li><a href="#"><i class="fa fa-check" aria-hidden="true"></i>一只流浪狗的自述</a><span><i class="fa fa-calendar" aria-hidden="true"></i> June 21, 2021.</span></li>
+							<li><a href="#"><i class="fa fa-check" aria-hidden="true"></i>养猫须知</a><span><i class="fa fa-calendar" aria-hidden="true"></i> June 23, 2021.</span></li>
+							<li><a href="#"><i class="fa fa-check" aria-hidden="true"></i>狗能吃的东西</a><span><i class="fa fa-calendar" aria-hidden="true"></i> June 24, 2021.</span></li>
+							<li><a href="#"><i class="fa fa-check" aria-hidden="true"></i>养护常识</a><span><i class="fa fa-calendar" aria-hidden="true"></i> June 25, 2021.</span></li>
+							<li><a href="#"><i class="fa fa-check" aria-hidden="true"></i>救助~流浪猫狗</a><span><i class="fa fa-calendar" aria-hidden="true"></i> June 28, 2021.</span></li>
+						</ul>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="agile_tags_cate">
+				<div class="col-md-4 agile_cat_grid">
+					<h4>类别</h4>
+					<ul class="categories">
+						<li><a href="#">流浪猫求助大厅</a></li>
+						<li><a href="#">流浪狗救助大厅</a></li>
+						<li><a href="#">养猫手册</a></li>
+						<li><a href="#">养狗手册</a></li>
+						<li><a href="#">求助行动</a></li>
+						<li><a href="#">公益捐赠</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 agile_cat_grid">
+					<h4>档案</h4>
+					<ul class="categories">
+						<li><a href="#">Jan 24,2021</a></li>
+						<li><a href="#">April 15,2021</a></li>
+						<li><a href="#">Sep 19,2021</a></li>
+						<li><a href="#">May 24,2021</a></li>
+						<li><a href="#">April 15,2021</a></li>
+						<li><a href="#">Jan 21,2021</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 agile_cat_grid">
+					<h4>标签</h4>
+					<div class="agile_cat_grid_tags">
+						<ul>
+							<li><a href="#">养猫</a></li>
+							<li><a href="#">养狗</a></li>
+							<li><a href="#">救助</a></li>
+							<li><a href="#">捐赠</a></li>
+							<li><a href="#">领养</a></li>
+							<li><a href="#">收留</a></li>
+							<li><a href="#">喵星人</a></li>
+							<li><a href="#">汪星人</a></li>
+							<li><a href="#">关爱</a></li>
+							<li><a href="#">宠物领养</a></li>
+							<li><a href="#">关于猫狗</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="agileits_three_comments">
+				<h3>3 条评论</h3>
+				<div class="agileits_three_comment_grid">
+					<div class="agileits_tom">
+						<i class="fa fa-user"></i>
+					</div>
+					<div class="agileits_tom_right">
+						<div class="hardy">
+							<h4>猪猪会飞</h4>
+							<p>21 June 2021</p>
+						</div>
+						<div class="reply">
+							<a href="#">回复</a>
+						</div>
+						<div class="clearfix"> </div>
+						<p class="lorem">每天都在喂流浪猫，并不停的帮它们找人收养，希望每一条生命都能被善待</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="agileits_three_comment_grid agileits_three_comment_grid1">
+					<div class="agileits_tom">
+						<i class="fa fa-user" aria-hidden="true"></i>
+					</div>
+					<div class="agileits_tom_right">
+						<div class="hardy">
+							<h4>小松鼠</h4>
+							<p>05 June 2021</p>
+						</div>
+						<div class="reply">
+							<a href="#">回复</a>
+						</div>
+						<div class="clearfix"> </div>
+						<p class="lorem">家里三只猫，院子里又收留了两只流浪猫</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="agileits_three_comment_grid">
+					<div class="agileits_tom">
+						<i class="fa fa-user" aria-hidden="true"></i>
+					</div>
+					<div class="agileits_tom_right">
+						<div class="hardy">
+							<h4>二狗子</h4>
+							<p>18 May 2021</p>
+						</div>
+						<div class="reply">
+							<a href="#">回复</a>
+						</div>
+						<div class="clearfix"> </div>
+						<p class="lorem">喂了小区十多只流浪猫，一天两次，坚持几年了，天冷了，做了几个窝，放上不穿的棉衣，希望能熬过冬天</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<div class="w3_leave_comment">
+				<h3>留下你的 <span>评论</span></h3>
+				<form action="#" method="post">
+					<input type="text" name="Name" placeholder="名字" required="">
+					<input class="email" type="email" name="Email" placeholder="邮箱" required="">
+					<input type="text" name="Phone" placeholder="电话" required="">
+					<textarea placeholder="信息" name="Message" required=""></textarea>
+					<input type="submit" value="提交">
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- //single -->
+	<!-- subscribe -->
+	<div class="subscribe wthree-sub">
+		<div class="container">
+			<h4>立即体验</h4>
+			<form action="#" method="post">
+				<input type="email" name="email" placeholder="进入你的铲屎官账号" required="">
+				<input type="submit" value="开启">
+				<div class="clearfix"> </div>
+			</form>
+			<div class="w3lsfoter-icons social-icon">
+				<a href="#" class="social-button dribbble"><i class="fa-dribbble iconfont" style="margin-left: -15px;">&#xe62c;</i></a>
+				<a href="#" class="social-button dribbble"><i class="fa-dribbble iconfont" style="margin-left: -15px;">&#xe61a;</i></a>
+				<a href="#" class="social-button dribbble"><i class="fa-dribbble iconfont" style="margin-left: -15px;">&#xe8bb;</i></a>
+				<a href="#" class="social-button dribbble"><i class="fa-dribbble iconfont" style="margin-left: -15px;">&#xe908;</i></a>
+			</div>
+		</div>
+	</div>
+	<!-- //subscribe -->
+	<!-- copy rights start here -->
+	<div class="copy-w3right">
+		<div class="container">
+			<div class="top-nav bottom-w3lnav">
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="about.html">宠物服务</a></li>
+					<li><a href="gallery.html">宠物领养</a></li>
+					
+					<li><a href="contact.html">联系我们</a></li>
+				</ul>
+			</div>
+			
+		</div>
+	</div>
+	<!-- //copy right end here -->
+	<!-- password-script -->
+	<script type="text/javascript">
+		window.onload = function () {
+			document.getElementById("password1").onchange = validatePassword;
+			document.getElementById("password2").onchange = validatePassword;
+		}
+
+		function validatePassword() {
+			var pass2 = document.getElementById("password2").value;
+			var pass1 = document.getElementById("password1").value;
+			if (pass1 != pass2)
+				document.getElementById("password2").setCustomValidity("Passwords Don't Match");
+			else
+				document.getElementById("password2").setCustomValidity('');
+			//empty string means no validation error
+		}
+	</script>
+	<!-- //password-script -->
+
+	<script src="js/SmoothScroll.min.js"></script>
+	<!-- start-smooth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<!-- //end-smooth-scrolling -->
+	<!-- smooth-scrolling-of-move-up -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+	</script>
+	<!-- //smooth-scrolling-of-move-up -->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/bootstrap.js"></script>
+</body>
+
+</html>
